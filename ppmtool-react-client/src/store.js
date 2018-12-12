@@ -13,7 +13,7 @@ if (window.navigator.userAgent.includes("Chrome")) {
         rootReducer,
         initialState,
         composeWithDevTools(
-            applyMiddleware(...middleware)
+            applyMiddleware(...middleware),
 
         )
     );
